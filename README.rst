@@ -29,3 +29,4 @@ PyPi: https://pypi.org/project/mynameischarkkich/
    charkkich.show_hobby() # โชว์งานอดิเรก
    charkkich.about() # เกี่ยวกับฉัน
    charkkich.show_art() #โชว์ภาพศิลปะ
+   charkkich.dice() #ทอยลูกเต๋า

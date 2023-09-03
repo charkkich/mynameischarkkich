@@ -1,3 +1,5 @@
+import random
+
 class Charkkich :
     """
     คลาส Charkkich เป็นข้อมูลที่เกี่ยวข้องกับ Charkkich
@@ -11,6 +13,7 @@ class Charkkich :
     charkkich.show_hobby()
     charkkich.about()
     charkkich.show_art()
+    charkkich.dice()
     ------------------------
     """
     def __init__(self):
@@ -54,10 +57,17 @@ class Charkkich :
         """
         print(text)
 
+    def dice(self):
+        dice_list = ["⚀","⚁","⚂","⚃","⚄","⚅"]
+        first = random.choice(dice_list)
+        second = random.choice(dice_list)
+        print(f"คุณทอยลูกเต๋าได้ : {first}{second}")
+
 if __name__ == "__main__" :
     charkkich = Charkkich()
     charkkich.show_name()
     charkkich.show_hobby()
     charkkich.about()
     charkkich.show_art()
+    charkkich.dice()
 
